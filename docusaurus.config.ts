@@ -87,7 +87,8 @@ const config: Config = {
         {
           to: 'https://elenix-analytics.com/',
           label: 'Regresar a Elenix',
-          position: 'left'
+          position: 'left',
+          target: "_self",
         },
         {
           type: 'localeDropdown',
