@@ -88,7 +88,6 @@ const config: Config = {
           to: 'http://localhost:3000/',
           label: 'Regresar a Elenix',
           position: 'left',
-          target: "_self",
         },
         {
           type: 'localeDropdown',
