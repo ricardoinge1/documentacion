@@ -13,7 +13,6 @@
 <p align="center">
   <!-- CUSTOMIZE THESE BADGES! -->
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
-  <img src="https://img.shields.io/github/workflow/status/<YOUR_GH_USERNAME>/<YOUR_REPO_NAME>/Deploy%20Docusaurus%20to%20GitHub%20Pages" alt="Build Status">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
 </p>
 
@@ -74,7 +73,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ```
 
-How does this English version look to you? It now clearly separates the purpose of the repository (for building the docs) from the purpose of the Elenix product itself, and it directs people to your live documentation site first.
-
-If you approve, I can switch to **Agent mode** and apply these changes.
 ```
