@@ -1,41 +1,80 @@
-# Website
+# Elenix Official Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<p align="center">
+  <img src="static/img/logo1.svg" alt="Elenix Logo" width="150">
+</p>
 
-## Installation
+<h3 align="center">The official documentation for the Elenix physical space analytics platform.</h3>
+
+<p align="center">
+  This repository contains the source code for the official Elenix documentation website.
+</p>
+
+<p align="center">
+  <!-- CUSTOMIZE THESE BADGES! -->
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/github/workflow/status/<YOUR_GH_USERNAME>/<YOUR_REPO_NAME>/Deploy%20Docusaurus%20to%20GitHub%20Pages" alt="Build Status">
+  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+</p>
+
+---
+
+## 📚 Read the Documentation
+
+The complete, live documentation is the best place to learn about Elenix.
+
+**➡️ [Visit the Official Elenix Website](https://elenix-analytics.com/login)**
+
+## 🚀 About This Project
+
+This repository is for those who wish to contribute to the documentation itself. For information about the Elenix platform, please visit the documentation link above.
+
+## 🛠️ How to Contribute or Run This Site Locally
+
+<details>
+  <summary>Click here for development instructions</summary>
+
+### Installation
+
+To get started, clone the repository and install the dependencies.
 
 ```bash
-yarn
+npm install
 ```
 
-## Local Development
+### Local Development
+
+This command starts a local development server and opens a browser window. Most changes are reflected live without having to restart the server.
 
 ```bash
-yarn start
+npm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Build
 
-## Build
+This command generates static content into the `build` directory and can be served using any static content hosting service.
 
 ```bash
-yarn build
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+### Deployment
 
-## Deployment
-
-Using SSH:
+This command will build and deploy the site to your configured host (e.g., GitHub Pages).
 
 ```bash
-USE_SSH=true yarn deploy
+npm run deploy
 ```
 
-Not using SSH:
+</details>
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
+## 📜 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+How does this English version look to you? It now clearly separates the purpose of the repository (for building the docs) from the purpose of the Elenix product itself, and it directs people to your live documentation site first.
+
+If you approve, I can switch to **Agent mode** and apply these changes.
+```
