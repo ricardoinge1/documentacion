@@ -4,69 +4,150 @@
   <img src="static/img/logo1.svg" alt="Elenix Logo" width="150">
 </p>
 
-<h3 align="center">The official documentation for the Elenix physical space analytics platform.</h3>
+<h3 align="center">Official documentation for the Elenix physical space analytics platform</h3>
 
 <p align="center">
-  This repository contains the source code for the official Elenix documentation website.
-</p>
-
-<p align="center">
-  <!-- CUSTOMIZE THESE BADGES! -->
-  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
-  <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  <a href="https://elenix-analytics.com">
+    <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+  </a>
+  <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg" alt="Node Version">
+  <img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status">
 </p>
 
 ---
 
-## 📚 Read the Documentation
+## Overview
 
-The complete, live documentation is the best place to learn about Elenix.
+This repository contains the complete source code and documentation for the Elenix platform, a comprehensive physical space analytics solution that empowers businesses to make data-driven decisions about their physical environments.
 
-**➡️ [Visit the Official Elenix Website](https://elenix-analytics.com/login)**
+## 📖 Documentation
 
-## 🚀 About This Project
+Access the complete documentation and platform resources:
 
-This repository is for those who wish to contribute to the documentation itself. For information about the Elenix platform, please visit the documentation link above.
+**🌐 [Official Documentation](https://elenix-analytics.com)**  
+**🔐 [Platform Access](https://elenix-analytics.com/login)**
 
-## 🛠️ How to Contribute or Run This Site Locally
+## Features
 
-<details>
-  <summary>Click here for development instructions</summary>
+- **Real-time Analytics**: Monitor physical spaces with live data visualization
+- **Comprehensive Reporting**: Generate detailed insights and custom reports
+- **API Integration**: Seamlessly integrate with existing systems
+- **Multi-platform Support**: Access from web, mobile, and desktop applications
+- **Enterprise Security**: Bank-level security protocols and data protection
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Node.js** (version 16.0.0 or higher)
+- **npm** (version 8.0.0 or higher)
 
 ### Installation
 
-To get started, clone the repository and install the dependencies.
+1. **Clone the repository**
 
-```bash
-npm install
+   ```bash
+   git clone https://github.com/your-username/elenix-documentation.git
+   cd elenix-documentation
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   npm run start
+   ```
+
+The development server will start at `http://localhost:3000` and automatically open in your default browser.
+
+## Development
+
+### Available Scripts
+
+| Command          | Description                              |
+| ---------------- | ---------------------------------------- |
+| `npm run start`  | Start development server with hot reload |
+| `npm run build`  | Build production-ready static files      |
+| `npm run serve`  | Serve built files locally for testing    |
+| `npm run deploy` | Deploy to configured hosting service     |
+| `npm run lint`   | Run code linting                         |
+| `npm run test`   | Run test suite                           |
+
+### Project Structure
+
+```
+elenix-documentation/
+├── docs/                 # Documentation content
+├── src/                  # Source code
+├── static/               # Static assets
+│   ├── img/             # Images and icons
+│   └── css/             # Custom stylesheets
+├── docusaurus.config.js  # Docusaurus configuration
+├── package.json          # Dependencies and scripts
+└── README.md            # This file
 ```
 
-### Local Development
+## Contributing
 
-This command starts a local development server and opens a browser window. Most changes are reflected live without having to restart the server.
+We welcome contributions from the community! Please read our [Contributing Guide](CONTRIBUTING.md) before submitting pull requests.
 
-```bash
-npm run start
-```
+### Development Workflow
 
-### Build
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **Commit** your changes: `git commit -m 'Add amazing feature'`
+4. **Push** to the branch: `git push origin feature/amazing-feature`
+5. **Open** a Pull Request
 
-This command generates static content into the `build` directory and can be served using any static content hosting service.
+### Code Standards
+
+- Follow existing code style and conventions
+- Write clear, descriptive commit messages
+- Add documentation for new features
+- Ensure all tests pass before submitting
+
+## Deployment
+
+### Automated Deployment
+
+This project includes automated deployment workflows. Changes to the `main` branch trigger automatic deployment to the production environment.
+
+### Manual Deployment
+
+For manual deployment to your configured hosting service:
 
 ```bash
 npm run build
-```
-
-### Deployment
-
-This command will build and deploy the site to your configured host (e.g., GitHub Pages).
-
-```bash
 npm run deploy
 ```
 
-</details>
+## Support
 
-## 📜 License
+- **📧 Email**: support@elenix-analytics.com
+- **📚 Documentation**: [elenix-analytics.com](https://elenix-analytics.com)
+- **🐛 Issues**: [GitHub Issues](https://github.com/your-username/elenix-documentation/issues)
 
-Distributed under the MIT License. See `LICENSE` for more information.
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Built with [Docusaurus](https://docusaurus.io/) by Meta
+- Icons provided by [Feather Icons](https://feathericons.com/)
+- Special thanks to our contributors and the open-source community
+
+---
+
+<p align="center">
+  Made with ❤️ by the Elenix Team
+</p>

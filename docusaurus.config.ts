@@ -85,7 +85,7 @@ const config: Config = {
           label: 'Documentación',
         },
         {
-          to: 'http://localhost:3000/',
+          to: 'https://elenix-analytics.com/',
           label: 'Regresar a Elenix',
           position: 'left',
         },
