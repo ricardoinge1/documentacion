@@ -27,16 +27,8 @@ This repository contains the complete source code and documentation for the Elen
 
 Access the complete documentation and platform resources:
 
-**🌐 [Official Documentation](https://elenix-analytics.com)**  
-**🔐 [Platform Access](https://elenix-analytics.com/login)**
-
-## Features
-
-- **Real-time Analytics**: Monitor physical spaces with live data visualization
-- **Comprehensive Reporting**: Generate detailed insights and custom reports
-- **API Integration**: Seamlessly integrate with existing systems
-- **Multi-platform Support**: Access from web, mobile, and desktop applications
-- **Enterprise Security**: Bank-level security protocols and data protection
+**🌐 [Official Documentation](https://documentacion-weld.vercel.app)**  
+**🔐 [Platform Access](https://elenix-analytics.com)**
 
 ## Getting Started
 
@@ -96,55 +88,10 @@ elenix-documentation/
 └── README.md            # This file
 ```
 
-## Contributing
-
-We welcome contributions from the community! Please read our [Contributing Guide](CONTRIBUTING.md) before submitting pull requests.
-
-### Development Workflow
-
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. **Commit** your changes: `git commit -m 'Add amazing feature'`
-4. **Push** to the branch: `git push origin feature/amazing-feature`
-5. **Open** a Pull Request
-
-### Code Standards
-
-- Follow existing code style and conventions
-- Write clear, descriptive commit messages
-- Add documentation for new features
-- Ensure all tests pass before submitting
-
-## Deployment
-
-### Automated Deployment
-
-This project includes automated deployment workflows. Changes to the `main` branch trigger automatic deployment to the production environment.
-
-### Manual Deployment
-
-For manual deployment to your configured hosting service:
-
-```bash
-npm run build
-npm run deploy
-```
-
-## Support
-
-- **📧 Email**: support@elenix-analytics.com
-- **📚 Documentation**: [elenix-analytics.com](https://elenix-analytics.com)
-- **🐛 Issues**: [GitHub Issues](https://github.com/your-username/elenix-documentation/issues)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Built with [Docusaurus](https://docusaurus.io/) by Meta
 - Icons provided by [Feather Icons](https://feathericons.com/)
-- Special thanks to our contributors and the open-source community
 
 ---
 
