@@ -1,34 +1,51 @@
 {
+  "sidebar.tutorialSidebar.category.Introducción": {
+    "message": "Introduction",
+    "description": "The label for category Introducción in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Introducción.link.generated-index.description": {
+    "message": "Learn about Elenix Introduction:",
+    "description": "The generated-index page description for category Introducción in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Primeros pasos": {
+    "message": "First Steps",
+    "description": "The label for category Primeros pasos in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Arquitectura general": {
+    "message": "General Architecture",
+    "description": "The label for category Arquitectura general in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Arquitectura general.link.generated-index.description": {
+    "message": "Module explanation:",
+    "description": "The generated-index page description for category Arquitectura general in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Funciones principales": {
+    "message": "Main Features",
+    "description": "The label for category Funciones principales in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Uso paso a paso": {
+    "message": "Step-by-step Usage",
+    "description": "The label for category Uso paso a paso in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Glosario": {
+    "message": "Glossary",
+    "description": "The label for category Glosario in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Funciones principales.link.generated-index.description": {
+    "message": "Control panel.",
+    "description": "The generated-index page description for category Funciones principales in sidebar tutorialSidebar"
+  },
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Introducción": {
-    "message": "Introduction",
-    "description": "The label for category Introduction in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Glosario.link.generated-index.description": {
+    "message": "Definitions of key terms used in Elenix.",
+    "description": "The generated-index page description for category Glosario in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Introducción.link.generated-index.description": {
-    "message": "Learn about Elenix Introduction:",
-    "description": "The generated-index page description for category Introduction in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Primeros pasos": {
-    "message": "Getting Started",
-    "description": "The label for category Getting Started in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Arquitectura general": {
-    "message": "General Architecture",
-    "description": "The label for category General Architecture in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Arquitectura general.link.generated-index.description": {
-    "message": "Module explanation:",
-    "description": "The generated-index page description for category General Architecture in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Funciones principales": {
-    "message": "Main Features",
-    "description": "The label for category Main Features in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Funciones principales.link.generated-index.description": {
-    "message": "Control panel.",
-    "description": "The generated-index page description for category Main Features in sidebar tutorialSidebar"
-  }
+  
+     "theme.docs.paginator.Primeros pasos": {
+       "message": "Getting Started",
+       "description": "The label used to navigate to the Getting Started category"
+     }
 }

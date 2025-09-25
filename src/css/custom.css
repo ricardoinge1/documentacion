@@ -440,7 +440,7 @@ html[data-theme='dark'] .hero-banner {
 
 /* Tarjetas de características */
 .feature-card {
-  background: var(--ifm-background-color);
+  background: var(--ifm-color-emphasis-600);
   border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: 12px;
   padding: 25px;
@@ -847,6 +847,16 @@ html {
   border-bottom: 2px solid var(--ifm-color-primary);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+/* Texto en inglés */
+html[lang='en'] .table-of-contents::before {
+  content: "On this page";
+}
+
+/* Texto en español */
+html[lang='es'] .table-of-contents::before {
+  content: "En esta página";
 }
 
 /* Lista del TOC */

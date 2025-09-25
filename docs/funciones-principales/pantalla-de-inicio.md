@@ -274,6 +274,44 @@ calendario se ve de la siguiente manera:
     <img src={require('./img/calendario.jpg').default} alt="Horas pico de visualización" className="doc-image doc-image-large" />
   </div>
 
+## 📖 Análisis demográfico
+
+### Distribución por género
+
+<div style={{textAlign: 'justify'}}>
+El gráfico representa la distribución porcentual de los datos analíticos segmentados por género, lo que permite visualizar de manera comparativa la proporción de participación de cada categoría dentro del conjunto analizado.
+</div>
+<div className="doc-image-container">
+<img src={require('./img/distribucion-genero.jpg').default} alt="Horas pico de visualización" className="doc-image doc-image-large" />
+</div>
+
+### Distribución por rango de edad
+
+<div style={{textAlign: 'justify'}}>
+El gráfico muestra la segmentación de la información de acuerdo con rangos de edad, representando el porcentaje correspondiente a cada grupo. Esta visualización permite identificar tendencias y comparaciones entre diferentes intervalos etarios.
+</div>
+<div className="doc-image-container">
+<img src={require('./img/distribucion-edad.jpg').default} alt="Horas pico de visualización" className="doc-image doc-image-large" />
+</div>
+
+### Distribución por género y edad
+
+<div style={{textAlign: 'justify'}}>
+El gráfico presenta la distribución de datos por rangos de edad diferenciados además por género. Cada rango se representa mediante dos columnas adyacentes en distintos colores, lo que permite comparar de manera visual la proporción entre hombres y mujeres dentro de cada intervalo etario.
+</div>
+<div className="doc-image-container">
+<img src={require('./img/distribucion-genero-edad.jpg').default} alt="Horas pico de visualización" className="doc-image doc-image-large" />
+</div>
+
+### Ayuda
+
+<div style={{textAlign: 'justify'}}>
+En la esquina inferior derecha se encuentra el botón de ayuda, este botón está enlazado directamente a la página de documentación en la cual se encuentra información relevante acerca del uso y características de la plataforma
+</div>
+<div className="doc-image-container">
+<img src={require('./img/pantalla-de-inicio.jpg').default} alt="Horas pico de visualización" className="doc-image doc-image-large" />
+</div>
+
 ## 📋 Resumen de Funcionalidades
 
 <div className="feature-grid">

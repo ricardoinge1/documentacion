@@ -46,9 +46,9 @@ Elenix Analytics es una **plataforma avanzada de visualización de datos** dise�
 
 ¿Nuevo en Elenix Analytics? Te recomendamos seguir este recorrido:
 
-1. **[Introducción](./category/introducción)** - Comprende qué es Elenix y sus objetivos
-2. **[Primeros Pasos](./category/-primeros-pasos)** - Configura tu acceso y realiza tu primer login
-3. **[Funciones Principales](./category/funciones-principales)** - Explora las capacidades de la plataforma
+1. **[Introducción](./Introducción)** - Comprende qué es Elenix y sus objetivos
+2. **[Primeros Pasos](./Primeros-pasos)** - Configura tu acceso y realiza tu primer login
+3. **[Funciones Principales](./Funciones-principales)** - Explora las capacidades de la plataforma
 
 :::info ¿Necesitas Ayuda?
 Si tienes preguntas o necesitas asistencia técnica, no dudes en contactar a nuestro equipo de soporte.

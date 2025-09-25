@@ -6,5 +6,9 @@
   "item.label.Documentación": {
     "message": "Documentation",
     "description": "Navbar item with label Documentación"
+  },
+  "item.label.Regresar a Elenix": {
+    "message": "Back to Elenix",
+    "description": "Navbar item with label Regresar a Elenix"
   }
 }

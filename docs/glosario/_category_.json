@@ -1,9 +1,4 @@
 {
   "label": "Glosario",
-  "position": 7,
-  "link": {
-    "type": "generated-index",
-    "description": "Términos y definiciones."
-    
-  }
+  "position": 7
 }
