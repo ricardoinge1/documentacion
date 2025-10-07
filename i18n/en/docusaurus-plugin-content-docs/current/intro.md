@@ -9,10 +9,6 @@ slug: /
 Thank you for choosing Elenix Analytics. This documentation will guide you step by step to make the most of our platform.
 :::
 
-## About Elenix Analytics
-
-Elenix Analytics is an **advanced data visualization platform** designed to transform complex information into actionable insights. Our solution combines cutting-edge technology with an intuitive interface to deliver real-time data analysis.
-
 ## What will you find in this documentation?
 
 <div className="feature-grid">
@@ -32,6 +28,26 @@ Elenix Analytics is an **advanced data visualization platform** designed to tran
     <h4>📊 Main Features</h4>
     <p>Explore all the characteristics and capabilities of the platform</p>
   </div>
+  <div className="feature-card">
+  <h4>📖 Step-by-step Guide</h4>
+  <p>Learn how to use each feature with detailed tutorials</p>
+</div>
+<div className="feature-card">
+  <h4>⚙️ Administration</h4>
+  <p>Configure and manage users, roles, and system settings</p>
+</div>
+<div className="feature-card">
+  <h4>🛡️ Security and Permissions</h4>
+  <p>Define access policies and protect the integrity of your data</p>
+</div>
+<div className="feature-card">
+  <h4>💡 Troubleshooting</h4>
+  <p>Find solutions to common problems and frequently asked questions</p>
+</div>
+<div className="feature-card">
+  <h4>📚 Glossary and References</h4>
+  <p>Look up key terminology and access additional resources</p>
+</div>
 </div>
 
 ## Key Features

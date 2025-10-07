@@ -26,7 +26,7 @@ Data collection and processing system installed directly on your premises.
     <h4>Responsible for receiving information from the cameras</h4>
     <p>Establishes direct connection with video surveillance systems</p>
   </div>
-  <div className="feature-card" style={{gridColumn: '1 / -1', justifySelf: 'center', maxWidth: '400px'}}>
+  <div className="feature-card">
     <h4>Processes data immediately to obtain metrics</h4>
     <p>Executes instant analysis algorithms to generate metrics</p>
   </div>

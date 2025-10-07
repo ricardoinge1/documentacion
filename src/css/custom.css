@@ -709,7 +709,7 @@ html[data-theme='dark'] .footer * {
 @media screen and (max-width: 996px) {
   .navbar.navbar-sidebar--show {
     padding: 1rem 2rem;
-    min-height: 700px !important; /* Tu altura deseada */
+    min-height: 700px !important; 
     min-width: 200px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 0;
@@ -721,34 +721,34 @@ html[data-theme='dark'] .footer * {
     z-index: 1000;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    overflow: visible !important; /* Sobrescribir el overflow: hidden */
+    overflow: visible !important; 
   }
 }
-/* 🎨 COLORES DEL TEXTO - MODO CLARO */
+/* COLORES DEL TEXTO - MODO CLARO */
 .navbar .clean-btn {
   color: var(--ifm-sidebar-text-color) !important; 
 }
 .navbar .clean-btn:hover {
   color: var(--ifm-sidebar-text-hover-color) !important;
-  background: var(--ifm-color-emphasis-200); /* Color hover */
+  background: var(--ifm-color-emphasis-200); 
 }
 
 .menu__list-item a {
   color: var(--ifm-sidebar-text-color)!important;
-  transition: color 0.2s ease; /* Transición suave */
+  transition: color 0.2s ease; 
 }
 
 /* Hover */
 .menu__list-item a:hover {
   color: var(--ifm-sidebar-text-hover-color) !important;
-  background: var(--ifm-color-emphasis-200); /* Azul al hover */
+  background: var(--ifm-color-emphasis-200); 
 }
 
 .menu__list-item a[aria-current="page"] {
   color: var(--ifm-sidebar-text-hover-color) !important;
   font-weight: 900;
   transition: color 0.2s ease;
-  background: var(--ifm-color-emphasis-200); /* Azul al hover */
+  background: var(--ifm-color-emphasis-200); 
 }
 
 .navbar-sidebar__items navbar-sidebar__items--show-secondary {
@@ -1022,4 +1022,53 @@ html[lang='es'] .table-of-contents::before {
 
 .table-of-contents a  {
   border-bottom: 3px solid var(--ifm-color-emphasis-400);
+}
+
+/* =====================================================
+   11. NOTAS AL MARGEN DE IMÁGENES
+   ===================================================== */
+/* Estilos que no cambian */
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.doc-image-container {
+  position: relative; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.image-note {
+  /* Posicionamiento */
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 20px);
+  transform: translateY(-20%);
+  width: 180px;
+  z-index: 10;
+
+  background-color: var(--ifm-card-background-color);
+  color: var(--ifm-font-color-base);
+  padding: 1rem;
+  border-radius: var(--ifm-card-border-radius);
+  border-left: 4px solid var(--ifm-color-primary);
+  box-shadow: var(--ifm-global-shadow-lw);
+  font-size: 0.9em;
+  line-height: var(--ifm-line-height-base);
+}
+
+.image-note::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 100%; 
+  transform: translateY(-50%);
+
+  /* Triángulo creado con bordes */
+  border: 8px solid transparent;
+  border-right-color: var(--ifm-color-primary); 
 }

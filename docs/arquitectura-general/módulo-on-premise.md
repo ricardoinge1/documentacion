@@ -26,7 +26,7 @@ Sistema de recolección y procesamiento de datos instalado directamente en tus i
     <h4>Se encarga de recibir la información desde las cámaras</h4>
     <p>Establece conexión directa con los sistemas de videovigilancia</p>
   </div>
-  <div className="feature-card" style={{gridColumn: '1 / -1', justifySelf: 'center', maxWidth: '400px'}}>
+  <div className="feature-card">
     <h4>Procesa los datos de manera inmediata para obtener métricas</h4>
     <p>Ejecuta algoritmos de análisis instantáneo para generar métricas</p>
   </div>

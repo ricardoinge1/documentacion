@@ -8,7 +8,14 @@ sidebar_position: 1
 Reload the page and try again.
 :::
 
-:::note I changed my phone. How do I link Elenix again to my authenticator?
+:::tip I was unexpectedly logged out
+For security, Elenix logs you out every two hours or after 20 minutes of inactivity.
+:::
+:::note I entered my authenticator code and the page is stuck loading
+Reload the page and try again. If you enter the code when it has less than 5 seconds to expire, it may not grant access. Keep this in mind for future logins.
+:::
+
+:::info I changed my phone. How do I link Elenix again to my authenticator?
 
 - Step 1: Ask your administrator to resend the credentials.
 

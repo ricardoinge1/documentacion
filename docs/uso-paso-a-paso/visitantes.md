@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+toc_min_heading_level: 2
+toc_max_heading_level: 2
 ---
 
 # Visitantes
@@ -7,7 +9,7 @@ sidebar_position: 1
 <div className="callout callout-info">
   <strong>📝 Nota</strong>
 
-En esta página se muestran los datos referentes a los **[visitantes](../glosario/-glosario)**
+En esta página se muestran los datos referentes a los **[visitantes](../glosario/glosario-referencias#visitantes)**
 
 </div>
 
@@ -148,4 +150,147 @@ Una vez generada la imagen se abrirá una ventana nueva para mostrar una vista p
 </div>
 <div style={{textAlign: 'justify'}}>
 En la esquina superior derecha se muestra un botón “Limpiar mapa de calor” <img src={require('./img/limpiar-mapa.jpg').default} alt="Botón Volver al mapa" style={{height: '1.5em', verticalAlign: 'middle', margin: '0 0.2em', borderRadius: '8px'}} /> al presionarlo desaparecerá el mapa generado, para recuperar la imagen se debe repetir el proceso. Al hacer clic en “Descargar mapa de calor” <img src={require('./img/descargar-mapa.jpg').default} alt="Botón Volver al mapa" style={{height: '1.5em', verticalAlign: 'middle', margin: '0 0.2em', borderRadius: '8px'}} /> se descargará un archivo en .png. Sólo podemos generar imágenes una a la vez y descargarlas de manera individual.
+</div>
+
+## 🌎 País
+
+### Espectadores por estado
+
+<div className="doc-image-container">
+  <img src={require('./img/espectadores-estado.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-large" />
+</div>
+
+Este apartado muestra el resumen de los estados en los que se encuentran dispositivos activos a nivel nacional.
+
+En la línea superior se los datos que refiere son:
+
+:::info Estado superior
+Se refiere al estado que tiene la mayor cantidad de espectadores.
+:::
+
+:::info Promedio
+Es la cantidad de espectadores en promedio de todos los estados en los que se encuentran dispositivos activos.
+:::
+
+:::info Estados
+Indica la cantidad de los mismos en los que se encuentran dispositivos activos
+:::
+
+### Visión general de ubicaciones
+
+<div className="doc-image-container">
+  <img src={require('./img/vision-general-ubicaciones.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-large" />
+</div>
+
+Esta tabla contiene las ubicaciones activas listadas por su respectiva dirección, también se incluyen los siguientes datos por ubicación:
+
+- Dispositivos
+- Total de espectadores
+- Tiempo promedio de visualización (en minutos)
+- Tiempo promedio de visualización (en horas)
+- Tiempo promedio de **[permanencia](../glosario/glosario-referencias#permanencia)**
+  En la esquina superior derecha se puede seleccionar la cantidad de elementos a mostrar en la tabla con un mínimo de 8 elementos y máximo 50. En la esquina inferior derecha se muestra la cantidad de páginas con información y a través de los botones “Atrás” y “Siguiente” podemos navegar entre dichas páginas.
+
+## 📐 Métricas
+
+El propósito de esta página es generar un comparativo de rendimiento entre estados, dispositivos o ubicaciones, el rango de fecha para generar este comparativo se selecciona en el calendario de la esquina superior derecha.
+
+Haciendo clic en el botón seleccionar elementos se despliega la lista de estados con su respectivo código de estado (número a dos dígitos), el primer paso para hacer la comparación es seleccionar el estado, podemos comprar máximo 5 elementos.
+
+<div className="doc-image-container">
+  <img src={require('./img/seleccionar-elementos.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-large" />
+</div>
+
+Una vez desplegado “Seleccionar elementos”, se mostrará un apartado adicional nombrado “Agregar a comparación” con el listado de todos los estados para iniciar la selección. Conforme se seleccionen los estados estos se mostrarán resaltados y se agregarán a la fila superior.
+
+<div className="doc-image-container">
+  <img src={require('./img/comparacion.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-large" />
+</div>
+
+Para eliminar un estado o cualquier elemento basta con dar clic en la “X” que se muestra a la derecha del nombre:
+
+<div className="doc-image-container">
+  <img src={require('./img/equis.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+Para eliminar en todos los elementos seleccionados hacer clic en el botón “Limpiar todo” en la esquina superior derecha de la tarjeta “Elementos seleccionados”
+
+:::info
+Se pueden comparar dispositivos o ubicaciones únicamente después de seleccionar el estado al que corresponden
+:::
+
+### Resumen ejecutivo
+
+De estar satisfechos con la selección de estados el botón “Iniciar comparación” nos arrojará la información en el apartado “Resumen ejecutivo” el cual muestra los siguientes datos.
+
+<div className="doc-image-container">
+  <img src={require('./img/resumen-ejecutivo.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-large" />
+</div>
+
+:::info Total de espectadores
+Este número se refiere a todos los estados seleccionados, en la esquina superior derecha muestra la cantidad de días analizados, esta cantidad de días es la misma que se ha seleccionado en el calendario, en la esquina inferior izquierda muestra el promedio de espectadores que se han registrado.
+:::
+
+:::info Total de visitantes
+Se refiere a la cantidad de personas que fueron identificadas en el rango de visión de las cámaras
+:::
+
+:::info Tiempo total
+Indica la cantidad de tiempo que se detectaron espectadores, es decir, el tiempo que todas las personas detectadas observaron el contenido.
+:::
+
+:::info Conversión promedio
+Porcentaje de visitantes (personas detectadas) que se convierten en espectadores (personas que observan el contenido), en el ejemplo mostrado se aprecia que sólo el 0.3% de los visitantes se convierten en espectadores, este porcentaje varía dependiendo de la cantidad de elementos que estemos comparando ya que lo calcula en su totalidad.
+:::
+
+El resumen ejecutivo también muestra el estado con mejor rendimiento con sus respectivos datos.
+
+<div className="doc-image-container">
+  <img src={require('./img/mejor-rendimiento.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+A la par también se muestra el área de oportunidad, es decir, el elemento con menor rendimiento de esta manera.
+
+<div className="doc-image-container">
+  <img src={require('./img/area-mejora.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+A continuación, se muestran las estadísticas generales del periodo con el rango seleccionado, así como los términos usados para realizar la comparativa.
+
+<div className="doc-image-container">
+  <img src={require('./img/estadisticas-periodo.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+### Análisis Visual Detallado
+
+Derivado de los datos del resumen ejecutivo, en este apartado se generan una serie de gráficos, los cuales exponen la información de diversas maneras. El gráfico predeterminado es el de barras.
+
+<div className="doc-image-container">
+  <img src={require('./img/analisis-comparativo-visual.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+De inicio sólo mostrará la información de **[espectadores](../glosario/glosario-referencias#espectadores)** y **[visitantes](../glosario/glosario-referencias#visitantes)** sin embargo, el botón “Más métricas” en la esquina superior derecha permite también mostrar el tiempo promedio en minutos.
+
+<div className="doc-image-container">
+  <img src={require('./img/analisis-mas.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+:::info
+Colocando el cursor sobre algún gráfico muestra más información del elemento comparado.
+:::
+
+<div className="doc-image-container">
+  <img src={require('./img/analisis-elemento.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+Para cambiar el tipo de gráfico se muestra una serie de opciones en la esquina superior izquierda, haciendo clic en estos gráficos de manera inmediata se mostrarán los datos ajustados
+
+<div className="doc-image-container">
+  <img src={require('./img/opciones.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-medium" />
+</div>
+
+Debajo del gráfico seleccionado, se muestra el apartado “Insights de análisis” el cual muestra un resumen de los datos comparados, así como los elementos seleccionados
+
+<div className="doc-image-container">
+  <img src={require('./img/insights.jpg').default} alt="Vista previa de mapa de calor" className="doc-image doc-image-large" />
 </div>

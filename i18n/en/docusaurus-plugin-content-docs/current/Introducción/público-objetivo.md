@@ -26,7 +26,7 @@ It is aimed at administrators of stores, shopping centers and companies that nee
     <h4>⚙️ Operators</h4>
     <p>Personnel who manage information and day-to-day operations</p>
   </div>
-  <div className="feature-card" style={{gridColumn: '1 / -1', justifySelf: 'center', maxWidth: '400px'}}>
+  <div className="feature-card">
     <h4>📈 Executives</h4>
     <p>Leaders who require executive reports for decision making</p>
   </div>

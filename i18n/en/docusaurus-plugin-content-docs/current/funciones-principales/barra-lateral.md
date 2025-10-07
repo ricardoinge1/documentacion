@@ -15,8 +15,13 @@ With the sidebar, you can move between the different sections of the platform. E
   </div>
 </div>
 
-<div className="doc-image-container">
-  <img src={require('./img/barra-lateral.jpg').default} alt="Sidebar" style={{ width: '200px' }} className="doc-image doc-image-medium" />
+<div className="center-wrapper">
+  <div className="doc-image-container">
+    <img src={require('./img/barra-lateral.jpg').default} alt="Barra lateral" style={{ width: '200px' }} className="doc-image doc-image-medium" />
+    <div className="image-note">
+      These sections are visible only to administrators
+    </div>
+  </div>
 </div>
 
 ## 🎯 Efficient Navigation

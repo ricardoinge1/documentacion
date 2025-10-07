@@ -9,10 +9,6 @@ slug: /
 Gracias por elegir Elenix Analytics. Esta documentación te guiará paso a paso para aprovechar al máximo nuestra plataforma.
 :::
 
-## Acerca de Elenix Analytics
-
-Elenix Analytics es una **plataforma avanzada de visualización de datos** diseñada para transformar información compleja en insights accionables. Nuestra solución combina tecnología de vanguardia con una interfaz intuitiva para ofrecer análisis de datos en tiempo real.
-
 ## ¿Qué encontrarás en esta documentación?
 
 <div className="feature-grid">
@@ -31,6 +27,26 @@ Elenix Analytics es una **plataforma avanzada de visualización de datos** dise�
   <div className="feature-card">
     <h4>📊 Funciones Principales</h4>
     <p>Explora todas las características y capacidades de la plataforma</p>
+  </div>
+  <div className="feature-card">
+    <h4>📖 Uso paso a paso</h4>
+    <p>Aprende a utilizar cada función con tutoriales detallados</p>
+  </div>
+  <div className="feature-card">
+    <h4>⚙️ Administración</h4>
+    <p>Configura y gestiona usuarios, roles y ajustes del sistema</p>
+  </div>
+  <div className="feature-card">
+    <h4>🛡️ Seguridad y Permisos</h4>
+    <p>Define políticas de acceso y protege la integridad de tus datos</p>
+  </div>
+  <div className="feature-card">
+    <h4>💡 Resolución de Problemas</h4>
+    <p>Encuentra soluciones a problemas comunes y preguntas frecuentes</p>
+  </div>
+  <div className="feature-card">
+    <h4>📚 Glosario y Referencias</h4>
+    <p>Consulta la terminología clave y accede a recursos adicionales</p>
   </div>
 </div>
 

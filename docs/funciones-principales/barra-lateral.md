@@ -15,8 +15,13 @@ Con la barra lateral puedes moverte entre los diferentes apartados de la platafo
   </div>
 </div>
 
-<div className="doc-image-container">
-  <img src={require('./img/barra-lateral.jpg').default} alt="Barra lateral" style={{ width: '200px' }} className="doc-image doc-image-medium" />
+<div className="center-wrapper">
+  <div className="doc-image-container">
+    <img src={require('./img/barra-lateral.jpg').default} alt="Barra lateral" style={{ width: '200px' }} className="doc-image doc-image-medium" />
+    <div className="image-note">
+      Estos apartados se encuentras visibles únicamente para los administradores
+    </div>
+  </div>
 </div>
 
 ## 🎯 Navegación Eficiente

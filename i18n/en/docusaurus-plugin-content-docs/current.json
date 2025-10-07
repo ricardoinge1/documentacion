@@ -27,11 +27,19 @@
     "message": "Step-by-step Usage",
     "description": "The label for category Uso paso a paso in sidebar tutorialSidebar"
   },
+   "sidebar.tutorialSidebar.category.Administración": {
+    "message": "Administration",
+    "description": "The label for category Uso paso a paso in sidebar tutorialSidebar"
+  },
+   "sidebar.tutorialSidebar.category.Seguridad y Permisos": {
+    "message": "Security and Permissions",
+    "description": "The label for category Uso paso a paso in sidebar tutorialSidebar"
+  },
    "sidebar.tutorialSidebar.category.Contacto de soporte": {
     "message": "Support contact",
     "description": "The label for category Uso paso a paso in sidebar tutorialSidebar"
   },
-     "sidebar.tutorialSidebar.category.Glosario y Referencias": {
+     "sidebar.tutorialSidebar.category.Glosario y referencias": {
     "message": "Glossary and References",
     "description": "The label for category Uso paso a paso in sidebar tutorialSidebar"
   },

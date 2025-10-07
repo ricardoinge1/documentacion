@@ -26,7 +26,7 @@ Está dirigida a administradores de tiendas, centros comerciales y empresas que 
     <h4>⚙️ Operadores</h4>
     <p>Personal que gestiona información y operaciones del día a día</p>
   </div>
-  <div className="feature-card" style={{gridColumn: '1 / -1', justifySelf: 'center', maxWidth: '400px'}}>
+  <div className="feature-card">
     <h4>📈 Directivos</h4>
     <p>Líderes que requieren reportes ejecutivos para toma de decisiones</p>
   </div>

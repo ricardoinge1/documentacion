@@ -6,12 +6,15 @@ toc_max_heading_level: 2
 
 # Pantalla de inicio
 
-:::info Resumen
+<div className="callout callout-info">
+  <strong>📝 Resumen</strong>
+
 En la pantalla de inicio se muestran los datos referentes a los
-espectadores (generar vínculo a glosario) obtenidos de todos
+**[espectadores](../glosario/glosario-referencias#espectadores)** obtenidos de todos
 los dispositivos activos. De esta información se generan las
 gráficas que se muestran a lo largo de la página.
-:::
+
+</div>
 
 <div className="hero-banner">
   <div className="hero-content">
@@ -56,7 +59,7 @@ puede realizarse tantas veces como sean necesarias.
     <img src={require('./img/switch-text.gif').default} alt="Switch text" className="doc-image doc-image-large" />
   </div>
 
-## 📅 Sistema de Filtrado Temporal
+## 📅 Calendario
 
 ### Selector de Fechas
 
@@ -110,7 +113,7 @@ El botón “Rápido” permite seleccionar rangos de fecha predeterminados. Dan
 ### Gráfica de Espectadores Diarios
 
   <div className="doc-image-container">
-    <img src={require('./img/grafica.jpg').default} alt="Gráfica de espectadores diarios" className="doc-image doc-image-large" />
+    <img src={require('./img/grafica.jpg').default} alt="Gráfica de espectadores diarios" className="doc-image doc-image-medium" />
   </div>
 
   <div style={{textAlign: 'justify'}}>
@@ -118,7 +121,7 @@ El botón “Rápido” permite seleccionar rangos de fecha predeterminados. Dan
   </div>
 
   <div className="doc-image-container">
-    <img src={require('./img/grafica2.jpg').default} alt="Detalle de gráfica" className="doc-image doc-image-large" />
+    <img src={require('./img/grafica2.jpg').default} alt="Detalle de gráfica" className="doc-image doc-image-medium" />
   </div>
 
 ## 🌍 Análisis Geográfico
@@ -126,7 +129,7 @@ El botón “Rápido” permite seleccionar rangos de fecha predeterminados. Dan
 ### Principales ubicaciones
 
   <div className="doc-image-container">
-    <img src={require('./img/principales-ubicaciones.jpg').default} alt="Principales ubicaciones" className="doc-image doc-image-large" />
+    <img src={require('./img/principales-ubicaciones.jpg').default} alt="Principales ubicaciones" className="doc-image doc-image-medium" />
   </div>
 
   <div style={{textAlign: 'justify'}}>
